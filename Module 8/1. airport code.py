@@ -25,6 +25,6 @@ airport = get_airport_by_ident(code)
 if airport is not None:
     print(f"{airport} is located")
 else:
-    print('airport not found')
+    print("not found")
 
 conn.close()
