@@ -18,6 +18,5 @@ def main():
             car1.drive(1)
             print(f"{car1.registration_number}, Current Speed: {car1.current_speed}, Travelled Distance: {car1.travelled_distance}")
 
-# Run the main program
 if __name__ == "__main__":
     main()
