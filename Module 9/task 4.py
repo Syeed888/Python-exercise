@@ -17,6 +17,8 @@ def main():
             car1.accelerate(speed_change)
             car1.drive(1)
             print(f"{car1.registration_number}, Current Speed: {car1.current_speed}, Travelled Distance: {car1.travelled_distance}")
-
+            if car1.travelled_distance >= 10000
+            print(f"{car1.registration_number}, Current Speed: {car1.current_speed}, Travelled Distance: {car1.travelled_distance}")
+            break
 if __name__ == "__main__":
     main()
