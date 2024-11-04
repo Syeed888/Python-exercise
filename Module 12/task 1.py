@@ -1,5 +1,5 @@
 import requests
-import json
+
 def fetch_joke():
     try:
         response = requests.get("https://api.chucknorris.io/jokes/random")
