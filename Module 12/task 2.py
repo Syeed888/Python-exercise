@@ -10,7 +10,7 @@ def get_weather(city_name):
         "appid": api_key
     }
 
-    response = requests.get(base_url, params=parameter)
+    response = requests.get(base_url, parameters=parameter)
     data = response.json()
 
     if response.status_code == 200:
